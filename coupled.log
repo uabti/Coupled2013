@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.10.12)  16 JAN 2013 17:29
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.10.12)  17 JAN 2013 17:21
 entering extended mode
  %&-line parsing enabled.
 **coupled.tex
@@ -510,89 +510,158 @@ File: tikzlibraryplotmarks.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
 (/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2010/10/15 v2.10 (rcs-revision 1.12)
 )))
-(./coupled.aux)
+(/usr/share/texmf-texlive/tex/latex/sidecap/sidecap.sty
+Package: sidecap 2003/06/06 v1.6f SideCap Package (RN/HjG)
+
+(/usr/share/texmf-texlive/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\SC@BOXWD=\dimen179
+\SC@CAPWD=\dimen180
+\SC@tempdima=\dimen181
+\SC@tempdimb=\dimen182
+\c@SC@C=\count141
+\SC@BOX=\box43
+)
+(/usr/share/texmf-texlive/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip49
+\subfigcapskip=\skip50
+\subfigcaptopadj=\dimen183
+\subfigbottomskip=\skip51
+\subfigcapmargin=\dimen184
+\subfiglabelskip=\skip52
+\c@subfigure=\count142
+\c@lofdepth=\count143
+\c@subtable=\count144
+\c@lotdepth=\count145
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/share/texmf-texlive/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip53
+\subfig@bottom=\skip54
+) (./coupled.aux)
 \openout1 = `coupled.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Try loading font information for U+msa on input line 41.
- (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Try loading font information for U+msa on input line 45.
+
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 41.
+LaTeX Font Info:    Try loading font information for U+msb on input line 45.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 41.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 45.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 41.
+(Font)              size <5> substituted on input line 45.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 41.
+(Font)              size <5> substituted on input line 45.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 41.
+(Font)              size <5> substituted on input line 45.
 
 (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count141
-\scratchdimen=\dimen179
-\scratchbox=\box43
-\nofMPsegments=\count142
-\nofMParguments=\count143
+\scratchcounter=\count146
+\scratchdimen=\dimen185
+\scratchbox=\box44
+\nofMPsegments=\count147
+\nofMParguments=\count148
 \everyMPshowfont=\toks37
-\MPscratchCnt=\count144
-\MPscratchDim=\dimen180
-\MPnumerator=\count145
+\MPscratchCnt=\count149
+\MPscratchDim=\dimen186
+\MPnumerator=\count150
 \everyMPtoPDFconversion=\toks38
 )
-\c@lstlisting=\count146
+\c@lstlisting=\count151
  ABD: EveryShipout initializing macros
 ! Package pgfplots Warning: running in backwards compatibility mode (unsuitable
  tick labels; missing features). Consider writing \pgfplotsset{compat=1.7} into
  your preamble.
 
-(./introduction.tex) [1
+(/usr/share/texmf-texlive/tex/latex/ms/ragged2e.sty
+Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-(./numericalmethod.tex) (./stability.tex) (./resultsanddiscussion.tex
+(/usr/share/texmf-texlive/tex/latex/ms/everysel.sty
+Package: everysel 1999/06/08 v1.03 EverySelectfont Package (MS)
+LaTeX Info: Redefining \selectfont on input line 125.
+)
+\CenteringLeftskip=\skip55
+\RaggedLeftLeftskip=\skip56
+\RaggedRightLeftskip=\skip57
+\CenteringRightskip=\skip58
+\RaggedLeftRightskip=\skip59
+\RaggedRightRightskip=\skip60
+\CenteringParfillskip=\skip61
+\RaggedLeftParfillskip=\skip62
+\RaggedRightParfillskip=\skip63
+\JustifyingParfillskip=\skip64
+\CenteringParindent=\skip65
+\RaggedLeftParindent=\skip66
+\RaggedRightParindent=\skip67
+\JustifyingParindent=\skip68
+) (./introduction.tex)
+[1
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./numericalmethod.tex
+Overfull \hbox (3.48465pt too wide) in paragraph at lines 11--11
+[]\OT1/cmr/bx/n/12 THE HEAT TRANS-FER CO-EF-FI-CIENT FOR-WARD TEM-PER-A-TURE
+ []
 
-) (./conclusions.tex) (./acknowldegements.tex)
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-
+) (./stability.tex
 Overfull \hbox (2.61108pt too wide) has occurred while \output is active
 [] 
  []
 
 [2]
+Underfull \hbox (badness 10000) in paragraph at lines 21--23
+
+ []
+
+
+Overfull \hbox (2.61108pt too wide) has occurred while \output is active
+[] 
+ []
+
+[3]) (./resultsanddiscussion.tex) (./conclusions.tex) (./acknowldegements.tex)
+Overfull \hbox (2.61108pt too wide) has occurred while \output is active
+[] 
+ []
+
+[4]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
 Missing character: There is no √ in font cmr12!
 Missing character: There is no © in font cmr12!
 Missing character: There is no √ in font cmr12!
@@ -620,29 +689,33 @@ Overfull \hbox (2.61108pt too wide) has occurred while \output is active
 [] 
  []
 
-[3] (./coupled.aux)
+[5] (./coupled.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 19044 strings out of 493857
- 434170 string characters out of 1153304
- 568557 words of memory out of 3000000
- 21957 multiletter control sequences out of 15000+50000
+ 19463 strings out of 493857
+ 440443 string characters out of 1153304
+ 578557 words of memory out of 3000000
+ 22357 multiletter control sequences out of 15000+50000
  12687 words of font info for 49 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 52i,11n,93p,1155b,2033s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 52i,21n,87p,1155b,2080s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-te
-xlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/
-type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public
-/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
-cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on coupled.pdf (3 pages, 115790 bytes).
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts
+/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-texlive/fonts/type1/publi
+c/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
+m/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/t
+exmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texliv
+e/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type
+1/public/amsfonts/cm/cmti12.pfb>
+Output written on coupled.pdf (5 pages, 160521 bytes).
 PDF statistics:
- 43 PDF objects out of 1000 (max. 8388607)
+ 65 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
