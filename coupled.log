@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.10.12)  17 JAN 2013 17:21
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.10.12)  18 JAN 2013 14:49
 entering extended mode
  %&-line parsing enabled.
 **coupled.tex
@@ -542,59 +542,85 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 (/usr/share/texmf-texlive/tex/latex/subfigure/subfigure.cfg)
 \subfig@top=\skip53
 \subfig@bottom=\skip54
-) (./coupled.aux)
+)
+(/usr/share/texmf-texlive/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen185
+\WF@size=\dimen186
+\c@WF@wrappedlines=\count146
+\WF@box=\box44
+\WF@everypar=\toks37
+Package: wrapfig 2003/01/31  v 3.6
+) (./coupled.aux
+
+LaTeX Warning: Label `fig:subfig1' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:subfig1' multiply defined.
+
+
+LaTeX Warning: Label `fig:subfig2' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:subfig2' multiply defined.
+
+
+LaTeX Warning: Label `fig:subfig3' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:subfig3' multiply defined.
+
+)
 \openout1 = `coupled.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Try loading font information for U+msa on input line 45.
-
-(/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Try loading font information for U+msa on input line 52.
+ (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 45.
+LaTeX Font Info:    Try loading font information for U+msb on input line 52.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 45.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 52.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 45.
+(Font)              size <5> substituted on input line 52.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 45.
+(Font)              size <5> substituted on input line 52.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 45.
+(Font)              size <5> substituted on input line 52.
 
 (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count146
-\scratchdimen=\dimen185
-\scratchbox=\box44
-\nofMPsegments=\count147
-\nofMParguments=\count148
-\everyMPshowfont=\toks37
-\MPscratchCnt=\count149
-\MPscratchDim=\dimen186
-\MPnumerator=\count150
-\everyMPtoPDFconversion=\toks38
+\scratchcounter=\count147
+\scratchdimen=\dimen187
+\scratchbox=\box45
+\nofMPsegments=\count148
+\nofMParguments=\count149
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count150
+\MPscratchDim=\dimen188
+\MPnumerator=\count151
+\everyMPtoPDFconversion=\toks39
 )
-\c@lstlisting=\count151
+\c@lstlisting=\count152
  ABD: EveryShipout initializing macros
 ! Package pgfplots Warning: running in backwards compatibility mode (unsuitable
  tick labels; missing features). Consider writing \pgfplotsset{compat=1.7} into
@@ -625,16 +651,66 @@ LaTeX Info: Redefining \selectfont on input line 125.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./numericalmethod.tex
-Overfull \hbox (3.48465pt too wide) in paragraph at lines 11--11
+Overfull \hbox (5.72916pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Overfull \hbox (5.72916pt too wide) in paragraph at lines 32--33
+[][] 
+ []
+
+
+Underfull \hbox (badness 2818) in paragraph at lines 35--36
+[][]\OT1/cmr/m/n/12 The tem-per-a-ture for-ward flux back method (of-ten re-
+ []
+
+
+Underfull \hbox (badness 3000) in paragraph at lines 35--36
+\OT1/cmr/m/n/12 tive of the fluid do-main) im-poses a heat flux dis-tri-bu-
+ []
+
+
+Underfull \hbox (badness 1342) in paragraph at lines 35--36
+\OT1/cmr/m/n/12 tion as bound-ary con-di-tion to the fluid solver. The re-
+ []
+
+
+Underfull \hbox (badness 1472) in paragraph at lines 35--36
+\OT1/cmr/m/n/12 sult-ing tem-per-a-ture is im-posed to the solid solver, which
+ []
+
+
+Underfull \hbox (badness 5231) in paragraph at lines 35--36
+\OT1/cmr/m/n/12 re-turns a new heat flux dis-tri-bu-tion to the fluid do-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+ []
+
+
+Overfull \hbox (3.48465pt too wide) in paragraph at lines 36--36
 []\OT1/cmr/bx/n/12 THE HEAT TRANS-FER CO-EF-FI-CIENT FOR-WARD TEM-PER-A-TURE
  []
 
-) (./stability.tex
+
+Overfull \hbox (5.72916pt too wide) in paragraph at lines 45--46
+[][] 
+ []
+
+
 Overfull \hbox (2.61108pt too wide) has occurred while \output is active
 [] 
  []
 
 [2]
+Overfull \hbox (5.72916pt too wide) in paragraph at lines 63--64
+[][] 
+ []
+
+) (./stability.tex
 Underfull \hbox (badness 10000) in paragraph at lines 21--23
 
  []
@@ -644,34 +720,1569 @@ Overfull \hbox (2.61108pt too wide) has occurred while \output is active
 [] 
  []
 
-[3]) (./resultsanddiscussion.tex) (./conclusions.tex) (./acknowldegements.tex)
+[3]
 Overfull \hbox (2.61108pt too wide) has occurred while \output is active
 [] 
  []
 
-[4]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no √ in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no √ in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
+[4]) (./flatplate.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+! Package pgfplots Warning: Axis range for axis x is approximately empty; enlar
+ging it (it is [1.0000000000:1.0000000000])
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+[]\OT1/cmr/m/n/10 (a) Grid de-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+\OT1/cmr/m/n/10 pen-dence study
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+\OT1/cmr/m/n/10 with nor-mal-ized
+ []
+
+<figures/grid4.png, id=26, 740.7675pt x 903.375pt>
+File: figures/grid4.png Graphic file (type png)
+ <use figures/grid4.png>
+
+pdfTeX warning: pdflatex (file ./figures/Luikov4.pdf): PDF inclusion: found PDF
+ version <1.5>, but at most version <1.4> allowed
+<figures/Luikov4.pdf, id=27, 597.50786pt x 845.04686pt>
+File: figures/Luikov4.pdf Graphic file (type pdf)
+
+<use figures/Luikov4.pdf>
+Overfull \hbox (2.61108pt too wide) has occurred while \output is active
+[] 
+ []
+
+[5]) (./resultsanddiscussion.tex
+! Package pgfplots Warning: the current plot has no coordinates (or all have be
+en filtered away)
+! Package pgfplots Warning: the current plot has no coordinates (or all have be
+en filtered away)
+! Package pgfplots Warning: You have an axis with empty range. Replacing it wit
+h a default range and clearing all plots.
+! Package pgfplots Warning: the current plot has no coordinates (or all have be
+en filtered away)
+! Package pgfplots Warning: the current plot has no coordinates (or all have be
+en filtered away)
+! Package pgfplots Warning: You have an axis with empty range. Replacing it wit
+h a default range and clearing all plots.
+PGFPlots: reading {data/convergence_rel_FFTB.dat}
+NOTE: coordinate (11,-0.0016159492) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (12,-0.0069983423) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (13,-0.0063756359) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (14,-0.0016326946) has been dropped because it is unbounded (i
+n y). 
+PGFPlots: reading {data/convergence_rel_TFFB.dat}
+PGFPlots: reading {data/convergence_rel_hFTB2.dat}
+PGFPlots: reading {data/convergence_rel_hFFB.dat}
+NOTE: coordinate (260,-3.53760928157283E-006) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (261,-8.31907837954427E-006) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (262,-0.000012987) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (263,-1.75436104818207E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (264,-2.19908287629853E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (265,-2.63307540503612E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (266,-3.05653238910519E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (267,-3.46965651050533E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (268,-3.87263369664964E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (269,-4.26565884677715E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (270,-4.64891482090679E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (271,-5.02258414358439E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (272,-5.38684902355322E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (273,-5.74188435982353E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (274,-6.08786710864465E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (275,-6.4249646119877E-005) has been dropped because it is unb
+ounded (in y). 
+NOTE: coordinate (276,-6.75334863928409E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (277,-7.07318371429144E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (278,-7.38463180413565E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (279,-7.68784999485058E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (280,-0.00007983) has been dropped because it is unbounded (in
+ y). 
+NOTE: coordinate (281,-8.27023577361121E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (282,-8.54970961415597E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (283,-8.82156842092217E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (284,-9.08596143021867E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (285,-9.34302838717502E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (286,-9.59291827269364E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (287,-9.83576357547956E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (288,-0.0001007171) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (289,-0.0001030088) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (290,-0.0001052342) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (291,-0.0001073945) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (292,-0.0001094911) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (293,-0.0001115251) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (294,-0.0001134978) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (295,-0.0001154104) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (296,-0.0001172642) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (297,-0.0001190602) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (298,-0.0001207997) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (299,-0.0001224838) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (300,-0.0001241136) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (301,-0.0001256902) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (302,-0.0001272147) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (303,-0.000128688) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (304,-0.0001301114) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (305,-0.0001314857) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (306,-0.000132812) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (307,-0.0001340913) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (308,-0.0001353245) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (309,-0.0001365126) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (310,-0.0001376566) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (311,-0.0001387572) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (312,-0.0001398156) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (313,-0.0001408325) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (314,-0.0001418087) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (315,-0.0001427453) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (316,-0.0001436429) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (317,-0.0001445024) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (318,-0.0001453248) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (319,-0.0001461106) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (320,-0.0001468607) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (321,-0.0001475759) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (322,-0.000148257) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (323,-0.0001489046) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (324,-0.0001495195) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (325,-0.0001501025) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (326,-0.0001506541) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (327,-0.0001511752) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (328,-0.0001516663) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (329,-0.0001521282) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (330,-0.0001525615) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (331,-0.0001529668) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (332,-0.0001533448) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (333,-0.000153696) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (334,-0.0001540211) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (335,-0.0001543208) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (336,-0.0001545955) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (337,-0.0001548458) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (338,-0.0001550723) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (339,-0.0001552756) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (340,-0.0001554561) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (341,-0.0001556145) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (342,-0.0001557512) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (343,-0.0001558668) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (344,-0.0001559617) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (345,-0.0001560365) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (346,-0.0001560916) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (347,-0.0001561275) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (348,-0.0001561447) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (349,-0.0001561436) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (350,-0.0001561247) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (351,-0.0001560884) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (352,-0.0001560352) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (353,-0.0001559654) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (354,-0.0001558795) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (355,-0.0001557779) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (356,-0.000155661) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (357,-0.0001555291) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (358,-0.0001553827) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (359,-0.0001552222) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (360,-0.0001550478) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (361,-0.0001548601) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (362,-0.0001546593) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (363,-0.0001544457) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (364,-0.0001542197) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (365,-0.0001539817) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (366,-0.000153732) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (367,-0.0001534708) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (368,-0.0001531986) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (369,-0.0001529156) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (370,-0.0001526221) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (371,-0.0001523184) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (372,-0.0001520048) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (373,-0.0001516817) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (374,-0.0001513492) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (375,-0.0001510076) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (376,-0.0001506572) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (377,-0.0001502984) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (378,-0.0001499312) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (379,-0.000149556) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (380,-0.0001491731) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (381,-0.0001487826) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (382,-0.0001483849) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (383,-0.0001479801) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (384,-0.0001475685) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (385,-0.0001471502) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (386,-0.0001467255) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (387,-0.0001462946) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (388,-0.0001458578) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (389,-0.0001454152) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (390,-0.000144967) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (391,-0.0001445135) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (392,-0.0001440547) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (393,-0.000143591) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (394,-0.0001431225) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (395,-0.0001426493) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (396,-0.0001421717) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (397,-0.0001416898) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (398,-0.0001412037) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (399,-0.0001407137) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (400,-0.0001402199) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (401,-0.0001397225) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (402,-0.0001392216) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (403,-0.0001387173) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (404,-0.0001382099) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (405,-0.0001376994) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (406,-0.0001371861) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (407,-0.00013667) has been dropped because it is unbounded (in
+ y). 
+NOTE: coordinate (408,-0.0001361512) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (409,-0.0001356299) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (410,-0.0001351063) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (411,-0.0001345804) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (412,-0.0001340524) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (413,-0.0001335225) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (414,-0.0001329905) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (415,-0.0001324569) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (416,-0.0001319216) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (417,-0.0001313848) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (418,-0.0001308464) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (419,-0.0001303068) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (420,-0.0001297659) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (421,-0.0001292239) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (422,-0.0001286809) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (423,-0.0001281369) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (424,-0.0001275921) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (425,-0.0001270465) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (426,-0.0001265002) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (427,-0.0001259533) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (428,-0.0001254059) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (429,-0.0001248581) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (430,-0.00012431) has been dropped because it is unbounded (in
+ y). 
+NOTE: coordinate (431,-0.0001237615) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (432,-0.0001232129) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (433,-0.0001226642) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (434,-0.0001221154) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (435,-0.0001215667) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (436,-0.000121018) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (437,-0.0001204695) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (438,-0.0001199212) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (439,-0.0001193732) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (440,-0.0001188256) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (441,-0.0001182783) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (442,-0.0001177316) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (443,-0.0001171853) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (444,-0.0001166396) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (445,-0.0001160946) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (446,-0.0001155502) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (447,-0.0001150066) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (448,-0.0001144638) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (449,-0.0001139218) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (450,-0.0001133806) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (451,-0.0001128404) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (452,-0.0001123012) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (453,-0.000111763) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (454,-0.0001112258) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (455,-0.0001106897) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (456,-0.0001101547) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (457,-0.000109621) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (458,-0.0001090884) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (459,-0.0001085571) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (460,-0.000108027) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (461,-0.0001074983) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (462,-0.0001069709) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (463,-0.0001064449) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (464,-0.0001059203) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (465,-0.000105397) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (466,-0.0001048753) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (467,-0.0001043551) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (468,-0.0001038364) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (469,-0.0001033192) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (470,-0.0001028037) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (471,-0.0001022896) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (472,-0.0001017772) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (473,-0.0001012665) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (474,-0.0001007574) has been dropped because it is unbounded (
+in y). 
+NOTE: coordinate (475,-0.00010025) has been dropped because it is unbounded (in
+ y). 
+NOTE: coordinate (476,-9.97442739131579E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (477,-9.92402737690783E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (478,-0.000098738) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (479,-9.82375611857096E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (480,-9.77388036710404E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (481,-9.72418926952771E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (482,-9.67467576847251E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (483,-9.62534241116315E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (484,-0.000095762) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (485,-9.52723352674656E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (486,-9.47846309710253E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (487,-9.42987339229325E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (488,-9.38147176398941E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (489,-9.3332631627714E-005) has been dropped because it is unb
+ounded (in y). 
+NOTE: coordinate (490,-9.28524532901223E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (491,-9.23741600113253E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (492,-9.18978974541619E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (493,-9.14234747102871E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (494,-9.0951061479424E-005) has been dropped because it is unb
+ounded (in y). 
+NOTE: coordinate (495,-9.04805629890577E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (496,-9.00120527723431E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (497,-8.95455322257714E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (498,-0.000089081) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (499,-8.86183935081108E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (500,-8.81578021274785E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (501,-8.76992540236163E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (502,-8.72426302440024E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (503,-8.67880765031809E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (504,-8.63355219541007E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (505,-0.000085885) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (506,-8.54364397940792E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (507,-8.49899388853599E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (508,-8.45454905785557E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (509,-0.000084103) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (510,-8.3662636572763E-005) has been dropped because it is unb
+ounded (in y). 
+NOTE: coordinate (511,-8.32242575159251E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (512,-8.27879121195715E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (513,-8.23536257321322E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (514,-8.19213755262002E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (515,-8.14911386558254E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (516,-0.000081063) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (517,-8.06368303031036E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (518,-8.02127130822214E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (519,-7.97906622712745E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (520,-7.93706308803773E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (521,-7.89525959932214E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (522,-7.85366551939953E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (523,-7.81227373578435E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (524,-7.77108436458391E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (525,-0.000077301) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (526,-7.68931573049075E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (527,-7.64873428493841E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (528,-7.6083581192995E-005) has been dropped because it is unb
+ounded (in y). 
+NOTE: coordinate (529,-7.56818252298851E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (530,-7.52820760648391E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (531,-7.48843830345353E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (532,-7.44886507544534E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (533,-0.000074095) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (534,-7.37032657143882E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (535,-7.33135909728973E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (536,-7.29258812387548E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (537,-7.25401858099218E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (538,-7.21564574631951E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (539,-7.17747454879726E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (540,-0.000071395) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (541,-7.10172299230572E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (542,-7.06414041999712E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (543,-7.02675747360388E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (544,-6.98956942361443E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (545,-6.9525763670594E-005) has been dropped because it is unb
+ounded (in y). 
+NOTE: coordinate (546,-6.91577840027849E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (547,-6.87917320401183E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (548,-6.84276811734783E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (549,-6.80655357535788E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (550,-6.77052967025776E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (551,-0.000067347) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (552,-6.69906138301424E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (553,-6.6636123515064E-005) has been dropped because it is unb
+ounded (in y). 
+NOTE: coordinate (554,-6.62835673515035E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (555,-6.59328495921962E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (556,-0.000065584) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (557,-6.5237174370693E-005) has been dropped because it is unb
+ounded (in y). 
+NOTE: coordinate (558,-6.48921219960535E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (559,-0.000064549) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (560,-6.42076644589982E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (561,-6.38682609849389E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (562,-6.35306535269816E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (563,-6.31949395825673E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (564,-0.000062861) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (565,-0.000062529) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (566,-6.21987318327099E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (567,-6.18702857445752E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (568,-6.15436646307212E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (569,-6.12188692675879E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (570,-6.08958278751254E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (571,-6.05746137553433E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (572,-6.02551792941997E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (573,-5.99375252330059E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (574,-5.9621603929902E-005) has been dropped because it is unb
+ounded (in y). 
+NOTE: coordinate (575,-5.93074402941411E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (576,-0.000058995) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (577,-5.86843888965519E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (578,-5.83754541673503E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (579,-5.80682799412796E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (580,-5.77628185211699E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (581,-0.000057459) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (582,-0.000057157) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (583,-5.68566694805281E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (584,-0.000056558) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (585,-0.000056261) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (586,-5.5965717823142E-005) has been dropped because it is unb
+ounded (in y). 
+NOTE: coordinate (587,-5.56721195559961E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (588,-5.53801425454683E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (589,-5.50898358307074E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (590,-5.4801151615335E-005) has been dropped because it is unb
+ounded (in y). 
+NOTE: coordinate (591,-5.4514114722209E-005) has been dropped because it is unb
+ounded (in y). 
+NOTE: coordinate (592,-5.42287257628479E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (593,-5.39449126978493E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (594,-5.36627729796858E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (595,-5.33821861218943E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (596,-5.31032495729164E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (597,-5.28258428199985E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (598,-0.00005255) has been dropped because it is unbounded (in
+ y). 
+NOTE: coordinate (599,-5.22758389393439E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (600,-5.20031944983502E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (601,-5.17320820882316E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (602,-5.14625264764621E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (603,-5.1194552433457E-005) has been dropped because it is unb
+ounded (in y). 
+NOTE: coordinate (604,-5.0928063586969E-005) has been dropped because it is unb
+ounded (in y). 
+NOTE: coordinate (605,-5.06631573762464E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (606,-5.03997131804794E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (607,-5.01378284356188E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (608,-4.98774309633184E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (609,-4.96185455015164E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (610,-4.93611483192027E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (611,-4.91052156749361E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (612,-4.88507722949184E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (613,-4.85977944278604E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (614,-4.83462825541117E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (615,-4.80961886658399E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (616,-4.7847561713477E-005) has been dropped because it is unb
+ounded (in y). 
+NOTE: coordinate (617,-4.76004021658887E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (618,-4.73546135072378E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (619,-4.71102689212183E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (620,-4.68673203664901E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (621,-4.66258167825062E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (622,-4.63857101165666E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (623,-0.000046147) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (624,-4.59096165171457E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (625,-4.56736304357317E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (626,-0.000045439) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (627,-4.52057818136548E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (628,-4.49738958473158E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (629,-4.47433612373885E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (630,-4.45141541285854E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (631,-4.42862749177695E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (632,-4.40597482591458E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (633,-4.38345017616778E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (634,-4.36106085932487E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (635,-0.000043388) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (636,-4.31666411411241E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (637,-4.29466403970595E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (638,-4.27278731623841E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (639,-4.25103883295764E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (640,-4.22942105300123E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (641,-4.20792430462152E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (642,-4.18655590368034E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (643,-4.16531103105828E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (644,-4.1441921484087E-005) has been dropped because it is unb
+ounded (in y). 
+NOTE: coordinate (645,-4.12319443540953E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (646,-4.10231792539879E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (647,-4.08156750681205E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (648,-4.06093350244064E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (649,-4.04042079982549E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (650,-4.02003185923202E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (651,-3.99975700121101E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (652,-0.000039796) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (653,-3.9595690815703E-005) has been dropped because it is unb
+ounded (in y). 
+NOTE: coordinate (654,-3.93964879787926E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (655,-3.91984514826213E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (656,-3.90016059138712E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (657,-3.88058787184525E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (658,-3.86112944743764E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (659,-3.84178534717844E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (660,-3.82255560016411E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (661,-3.80344023499224E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (662,-3.78443199314531E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (663,-3.76553818921026E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (664,-3.74675399278508E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (665,-3.72807943106475E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (666,-3.70951453099764E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (667,-3.69105931930828E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (668,-3.67271139299319E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (669,-3.65446834838512E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (670,-3.63633750014582E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (671,-3.61831158508053E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (672,-3.60039062827045E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (673,-3.58256979459505E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (674,-3.56486125843242E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (675,-3.5472504643518E-005) has been dropped because it is unb
+ounded (in y). 
+NOTE: coordinate (676,-3.52974472635117E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (677,-3.51234163828606E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (678,-3.4950412237119E-005) has been dropped because it is unb
+ounded (in y). 
+NOTE: coordinate (679,-3.47784107561877E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (680,-3.46074364747676E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (681,-3.44374410107601E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (682,-3.42684732018976E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (683,-3.41004846582817E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (684,-3.39334755998158E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (685,-3.37674462434816E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (686,-3.36023968061551E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (687,-3.34382788778447E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (688,-3.3275165602837E-005) has been dropped because it is unb
+ounded (in y). 
+NOTE: coordinate (689,-0.000033113) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (690,-3.29517593540984E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (691,-3.27914911025488E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (692,-3.26321553889479E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (693,-3.24737524118479E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (694,-3.23162823685474E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (695,-3.2159721137218E-005) has been dropped because it is unb
+ounded (in y). 
+NOTE: coordinate (696,-3.20040932275841E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (697,-3.18493745131814E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (698,-3.16955651822489E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (699,-3.15426411006764E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (700,-3.13906510956178E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (701,-3.12395223854945E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (702,-3.10893037943181E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (703,-3.09399468557594E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (704,-3.07914517439021E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (705,-3.06438672826982E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (706,-3.0497120671219E-005) has been dropped because it is unb
+ounded (in y). 
+NOTE: coordinate (707,-3.03512364037015E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (708,-3.02062146495914E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (709,-3.00620555766579E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (710,-2.99187106934106E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (711,-2.97762288192732E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (712,-2.9634585787808E-005) has been dropped because it is unb
+ounded (in y). 
+NOTE: coordinate (713,-2.94937574280028E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (714,-2.93537925607089E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (715,-2.92145940144221E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (716,-2.90762349386999E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (717,-2.89387154892006E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (718,-0.000028802) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (719,-0.000028666) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (720,-2.85308800569326E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (721,-2.83965502683499E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (722,-0.000028263) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (723,-2.81302172495437E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (724,-2.79982143024029E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (725,-0.000027867) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (726,-2.77365605697675E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (727,-2.76068613809814E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (728,-2.7477930383763E-005) has been dropped because it is unb
+ounded (in y). 
+NOTE: coordinate (729,-2.73497433702207E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (730,-2.72223491580038E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (731,-2.70956505074548E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (732,-2.69697449201375E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (733,-2.6844535149691E-005) has been dropped because it is unb
+ounded (in y). 
+NOTE: coordinate (734,-2.67200943548882E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (735,-2.65963739727022E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (736,-2.64733497788968E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (737,-2.63510949355905E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (738,-2.62295121765934E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (739,-2.61086746637682E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (740,-2.59885338198221E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (741,-2.58690897611033E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (742,-2.57503426029151E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (743,-2.5632316810954E-005) has been dropped because it is unb
+ounded (in y). 
+NOTE: coordinate (744,-2.55149394454187E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (745,-2.53983080248761E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (746,-2.52823008996711E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (747,-0.000025167) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (748,-2.50523791440958E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (749,-2.49384403772771E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (750,-2.48251506880088E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (751,-2.471253453482E-005) has been dropped because it is unbo
+unded (in y). 
+NOTE: coordinate (752,-2.46005676662118E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (753,-2.44892501838072E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (754,-2.43786309053275E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (755,-2.42686125009815E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (756,-2.41592437838228E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (757,-2.40505492135433E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (758,-2.39424558086166E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (759,-0.000023835) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (760,-2.37281946762602E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (761,-0.000023622) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (762,-2.35164124203887E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (763,-2.3411496783174E-005) has been dropped because it is unb
+ounded (in y). 
+NOTE: coordinate (764,-2.33071341438693E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (765,-2.3203422044651E-005) has been dropped because it is unb
+ounded (in y). 
+NOTE: coordinate (766,-2.31002874832958E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (767,-2.29977792768526E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (768,-2.28958731482078E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (769,-2.27945204510689E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (770,-2.269381873488E-005) has been dropped because it is unbo
+unded (in y). 
+NOTE: coordinate (771,-2.25936949874839E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (772,-2.24941249218566E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (773,-2.23951817253793E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (774,-2.22967680054696E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (775,-0.000022199) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (776,-2.21017242681579E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (777,-2.20050700419456E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (778,-0.000021909) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (779,-2.18134241532882E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (780,-2.17184326437422E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (781,-0.000021624) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (782,-2.15301372449322E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (783,-2.14368091318979E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (784,-2.13440600077102E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (785,-2.12517924460566E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (786,-2.11601040174303E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (787,-2.10689460432304E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (788,-2.09783185935046E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (789,-2.08882217376047E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (790,-2.07986555439735E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (791,-2.07096200818793E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (792,-2.06210910398868E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (793,-2.05330928628957E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (794,-2.04456012379881E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (795,-2.03586162301663E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (796,-2.02721379031272E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (797,-2.01861907019687E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (798,-2.0100725928552E-005) has been dropped because it is unb
+ounded (in y). 
+NOTE: coordinate (799,-2.00157436435298E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (800,-1.99312926730886E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (801,-1.98473243144531E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (802,-1.97638386274663E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (803,-1.96808356713532E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (804,-1.95983155049393E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (805,-1.95163269565079E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (806,-1.94347481605517E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (807,-1.93536767131693E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (808,-1.92730882864027E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (809,-0.000019193) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (810,-1.91133119480837E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (811,-1.90340997589563E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (812,-1.89553952001877E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (813,-1.8877100773522E-005) has been dropped because it is unb
+ounded (in y). 
+NOTE: coordinate (814,-1.87993140859579E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (815,-1.87219376350668E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (816,-0.000018645) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (817,-1.85685863729452E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (818,-1.84925628848977E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (819,-0.000018417) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (820,-1.83418692267706E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (821,-1.82671747652506E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (822,-1.81929152797325E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (823,-1.81191152122038E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (824,-1.80457014313787E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (825,-1.79727715581028E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (826,-1.7900203669829E-005) has been dropped because it is unb
+ounded (in y). 
+NOTE: coordinate (827,-1.78281197839542E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (828,-1.77564223685949E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (829,-1.7685135863009E-005) has been dropped because it is unb
+ounded (in y). 
+NOTE: coordinate (830,-1.76143091035101E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (831,-1.75438445517136E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (832,-1.74738154387583E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (833,-1.74041974123451E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (834,-0.000017335) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (835,-1.72661459962023E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (836,-1.7197737087783E-005) has been dropped because it is unb
+ounded (in y). 
+NOTE: coordinate (837,-1.71297394366516E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (838,-1.70621042850297E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (839,-1.6994880471573E-005) has been dropped because it is unb
+ounded (in y). 
+NOTE: coordinate (840,-0.000016928) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (841,-1.68616182242536E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (842,-1.67955310675443E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (843,-1.6729879811261E-005) has been dropped because it is unb
+ounded (in y). 
+NOTE: coordinate (844,-1.66645668885778E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (845,-1.65996899451224E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (846,-1.65351270080747E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (847,-0.000016471) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (848,-1.64071873247713E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (849,-1.63437862508688E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (850,-1.6280748135241E-005) has been dropped because it is unb
+ounded (in y). 
+NOTE: coordinate (851,-0.000016218) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (852,-1.61557609207359E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (853,-1.60937874871831E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (854,-1.60322015579814E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (855,-0.000015971) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (856,-1.59101191362844E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (857,-1.58495738983847E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (858,-1.57894163030906E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (859,-1.57295731612118E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (860,-1.56701177290881E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (861,-0.000015611) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (862,-1.55521992685093E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (863,-1.54937851207173E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (864,-1.54356611765374E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (865,-1.53778762832835E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (866,-1.53204792939988E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (867,-1.52633725982164E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (868,-1.52066050462292E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (869,-1.51501766681773E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (870,-1.50940630825639E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (871,-1.50382643176844E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (872,-1.49828292270952E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (873,-1.49276846031645E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (874,-1.48728548853186E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (875,-1.48183645152787E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (876,-1.47641646942294E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (877,-1.47103042765886E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (878,-1.46567588765307E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (879,-1.46035041060548E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (880,-1.45505399902657E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (881,-1.44979398031237E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (882,-1.44455814914381E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (883,-1.43935627451087E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (884,-1.43418591747534E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (885,-1.42904219707628E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (886,-1.42392755754434E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (887,-1.41884444303072E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (888,-1.41379285614771E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (889,-1.40876547380121E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (890,-1.40377206580605E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (891,-1.39880530892713E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (892,-1.39386764738476E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (893,-1.3889566415837E-005) has been dropped because it is unb
+ounded (in y). 
+NOTE: coordinate (894,-1.3840747356981E-005) has been dropped because it is unb
+ounded (in y). 
+NOTE: coordinate (895,-1.37922193210164E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (896,-0.000013744) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (897,-0.000013696) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (898,-1.36482838940727E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (899,-1.36008957550618E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (900,-1.35537499073521E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (901,-1.35068707936337E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (902,-1.34602584347329E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (903,-1.34139128522197E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (904,-1.33678584898466E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (905,-0.000013322) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (906,-1.32765013917858E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (907,-1.3231247544828E-005) has been dropped because it is unb
+ounded (in y). 
+NOTE: coordinate (908,-1.31862117275331E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (909,-1.31414428079586E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (910,-0.000013097) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (911,-1.30527057431321E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (912,-1.30087132107554E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (913,-0.000012965) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (914,-1.29214802417874E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (915,-1.28782642695399E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (916,-1.2835266475942E-005) has been dropped because it is unb
+ounded (in y). 
+NOTE: coordinate (917,-1.27925357339033E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (918,-0.00001275) has been dropped because it is unbounded (in
+ y). 
+NOTE: coordinate (919,-1.27077777663801E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (920,-1.26657505756059E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (921,-0.000012624) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (922,-1.25824487255972E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (923,-1.25411741020427E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (924,-1.25001177958336E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (925,-1.24593042540342E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (926,-1.24187090628391E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (927,-1.2378356668865E-005) has been dropped because it is unb
+ounded (in y). 
+NOTE: coordinate (928,-1.23382226579486E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (929,-1.22983314775595E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (930,-1.22586831440102E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (931,-1.22192288097472E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (932,-0.00001218) has been dropped because it is unbounded (in
+ y). 
+NOTE: coordinate (933,-0.000012141) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (934,-1.21022498443399E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (935,-1.2063718253685E-005) has been dropped because it is unb
+ounded (in y). 
+NOTE: coordinate (936,-1.20253807379301E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (937,-1.19872861785811E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (938,-1.19493857229137E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (939,-1.1911728254089E-005) has been dropped because it is unb
+ounded (in y). 
+NOTE: coordinate (940,-1.18742404829884E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (941,-0.000011837) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (942,-0.0000118) has been dropped because it is unbounded (in 
+y). 
+NOTE: coordinate (943,-1.17631375836258E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (944,-1.17265486584105E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (945,-1.16901294998927E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (946,-1.16539289931403E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (947,-1.16179471516479E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (948,-1.15821351156605E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (949,-1.15465662095784E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (950,-1.1511191571981E-005) has been dropped because it is unb
+ounded (in y). 
+NOTE: coordinate (951,-0.000011476) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (952,-0.000011441) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (953,-1.14062089631509E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (954,-1.13716359673076E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (955,-1.13372573039236E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (956,-0.000011303) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (957,-1.12690585858134E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (958,-1.12352141149796E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (959,-1.12016129050903E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (960,-1.11681816484533E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (961,-1.11349447974044E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (962,-1.11019023635007E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (963,-0.000011069) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (964,-1.10363519122625E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (965,-1.10038439170882E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (966,-1.09715059429391E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (967,-1.09394113274252E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (968,-1.09074378715336E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (969,-1.08756589117883E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (970,-1.08440744599136E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (971,-1.0812660083966E-005) has been dropped because it is unb
+ounded (in y). 
+NOTE: coordinate (972,-1.07814402381486E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (973,-1.07503416011784E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (974,-1.07194864033687E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (975,-1.06887524349777E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (976,-1.06582130381281E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (977,-1.06278437794073E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (978,-1.05976202231827E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (979,-1.05676157152348E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (980,-1.05377324841915E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (981,-0.000010508) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (982,-1.04785254555651E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (983,-1.04491527856319E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (984,-1.04199258751421E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (985,-1.03909180737534E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (986,-0.000010362) has been dropped because it is unbounded (i
+n y). 
+NOTE: coordinate (987,-1.03333153687204E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (988,-1.03047449296196E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (989,-1.02763691906275E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (990,-1.02481148180536E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (991,-0.00001022) has been dropped because it is unbounded (in
+ y). 
+NOTE: coordinate (992,-1.0192116893827E-005) has been dropped because it is unb
+ounded (in y). 
+NOTE: coordinate (993,-1.01643489120205E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (994,-1.01367267786985E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (995,-1.01092749513567E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (996,-1.00819445401035E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (997,-1.00547844516314E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (998,-1.00277946952328E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (999,-1.00009263789845E-005) has been dropped because it is un
+bounded (in y). 
+NOTE: coordinate (1000,-9.97420396085989E-006) has been dropped because it is u
+nbounded (in y). 
+
+Overfull \hbox (2.61108pt too wide) has occurred while \output is active
+[] 
+ []
+
+[6 <./figures/grid4.png (PNG copy)> <./figures/Luikov4.pdf>])
+(./conclusions.tex
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 3.
+ (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 3.
+)
+(./acknowldegements.tex)
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ú in font cmr12!
@@ -689,33 +2300,42 @@ Overfull \hbox (2.61108pt too wide) has occurred while \output is active
 [] 
  []
 
-[5] (./coupled.aux)
+[7]
+Overfull \hbox (2.61108pt too wide) has occurred while \output is active
+[] 
+ []
+
+[8] (./coupled.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 19463 strings out of 493857
- 440443 string characters out of 1153304
- 578557 words of memory out of 3000000
- 22357 multiletter control sequences out of 15000+50000
+ 19658 strings out of 493857
+ 443929 string characters out of 1153304
+ 1162532 words of memory out of 3000000
+ 22533 multiletter control sequences out of 15000+50000
  12687 words of font info for 49 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 52i,21n,87p,1155b,2080s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-te
-xlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts
-/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-texlive/fonts/type1/publi
-c/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
-m/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/t
-exmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texliv
-e/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type
-1/public/amsfonts/cm/cmti12.pfb>
-Output written on coupled.pdf (5 pages, 160521 bytes).
+ 52i,21n,87p,703b,2100s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts
+/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts/type1/publ
+ic/amsfonts/cm/cmmi6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
+cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb
+></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share
+/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texliv
+e/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/typ
+e1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/am
+sfonts/cm/cmti12.pfb>
+Output written on coupled.pdf (8 pages, 215681 bytes).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
+ 91 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 

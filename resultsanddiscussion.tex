@@ -46,26 +46,8 @@
     log ticks with fixed point
     ,xlabel=Biot number,ylabel=]
 \addplot[blue, mark=*] coordinates {
-(0.25,
-0.00)
-(1,
-0.05)
-(2.5,
-0.15)
-(25,
-0.35)
-(250,
-0.55)
 };
 \addplot[red, mark=*]  coordinates {
-(1,
-0.00)
-(2.5,
-0.10)
-(25,
-0.30)
-(250,
-0.50)
 };
 \legend{Stable,Unstable}
 \end{semilogxaxis}
@@ -82,31 +64,26 @@
     log ticks with fixed point
     ,xlabel=Biot number,ylabel=]
 \addplot[blue, mark=*] coordinates {
-(0.25,
-0.00)
-(1,
-0.05)
-(2.5,
-0.15)
-(25,
-0.35)
-(250,
-0.55)
 };
 \addplot[red, mark=*]  coordinates {
-(1,
-0.00)
-(2.5,
-0.10)
-(25,
-0.30)
-(250,
-0.50)
 };
 \legend{Stable,Unstable}
 \end{semilogxaxis}
 \end{tikzpicture}
     \label{fig:subfig3}
 }
-  \caption{Stability of the FFTB method as a function of the Biot number for different fluid solves per iteration.}
+  \caption{Relaxation factor needed for stable computations of the FFTB method as a function of the Biot number for different fluid solves per iteration.}
 \end{figure}
+\begin{figure}
+\begin{tikzpicture}
+\begin{loglogaxis}[xlabel=iteration,ylabel= (Ti+1-Ti)/Ti+1, title= Relative convergence, width=75mm, legend pos=south west]
+\addplot[color=green,line width=1pt] file {data/convergence_rel_FFTB.dat};
+\addplot[color=red,line width=1pt] file {data/convergence_rel_TFFB.dat};
+\addplot[color=blue,line width=1pt] file {data/convergence_rel_hFTB2.dat};
+\addplot[color=black,line width=1pt] file {data/convergence_rel_hFFB.dat};
+\legend{FFTB,TFFB,hFTB,hFFB}
+\end{loglogaxis}
+\end{tikzpicture}
+\caption{Relaxation factor needed for stable computations of the FFTB method as a function of the Biot number for different fluid solves per iteration.}
+\end{figure}
+\newpage

@@ -1,28 +1,28 @@
 \section{STABILITY ANALYSIS}
-
+\label{sec:STABILITY ANALYSIS}
 All four methods have different stability and convergence properties.
-We derived a stability criterion for coupled simulations of conjugate heat transfer, based on the relations between temperature and heat flux at the interface of solid and fluid domain.\\
+We derived a stability criterion for coupled simulations of conjugate heat transfer, based on the relations between temperature and heat flux at the interface of solid and fluid domain \cite{Verstraete2008}.\\
 Considering a one dimensional conjugate heat transfer problem, we specify a solid temperature at one boundary of the solid domain and the 
 temperature of the fluid. The problem is to find the temperature $ T_{wall} $ and the heat flux $ q_{wall} $ at the interface. With the heat transfer coefficient $ h $, the thermal conductivity $ \lambda_{s} $ and the solid domain width $ L $ it is defined by:
 \vskip-.6cm
 \begin{eqnarray}
-q_{wall} = \frac{\lambda_s}{L}(T_s - T_{wall}) \hspace{20mm} \text{on } \Omega_s, \\
-q_{wall} = h(T_{wall} - T_{fluid})  \hspace{20mm} \text{on } \Omega_f, \nonumber
+q_{wall} &=& \frac{\lambda_s}{L}(T_s - T_{wall}) \hspace{20mm} \text{on } \Omega_s, \\
+q_{wall} &=& h(T_{wall} - T_{fluid})  \hspace{16mm} \text{on } \Omega_f, \nonumber
 \end{eqnarray}
 representing heat fluxes resulting from the solid domain ($ \Omega_s $) and the fluid domain ($ \Omega_f $) computations. Heat fluxes equal at the interface and we have:
 \vskip-.6cm
 \begin{eqnarray}
-\frac{\lambda_s}{L}(T_s-T_{wall}) = h(T_{wall}-T_{fluid}).
+\frac{\lambda_s}{L}(T_s-T_{wall}) &=& h(T_{wall}-T_{fluid}).
 \end{eqnarray}
 With the Biot number $ Bi=\frac{hL}{\lambda_s} $ the previous equation becomes:
 \vskip-.6cm
 \begin{eqnarray}
-T_s-T_{wall}=Bi(T_{wall}-T_{fluid}).
+T_s-T_{wall}&=&Bi(T_{wall}-T_{fluid}).
 \end{eqnarray}
 Thus, the wall temperature is:\\
 \vskip-.6cm
 \begin{eqnarray}
-T_{wall} = \frac{Ts+Bi \cdot T_{fluid}}{1+Bi}.
+T_{wall} &=& \frac{Ts+Bi \cdot T_{fluid}}{1+Bi}.
 \end{eqnarray}
 In the next sections, we continue with the stability analysis for each of the four methods.
 
@@ -31,31 +31,31 @@ In the next sections, we continue with the stability analysis for each of the fo
 In the FFTB method, a wall temperature $ T_{wall}^{0} $ is imposed to the fluid domain that varys by a value $ \alpha_0 $ from the correct wall temperature:
 \vskip-.6cm
 \begin{eqnarray}
-T_{wall}^0 = T_{wall} + \alpha_{0}.
+T_{wall}^0 &=& T_{wall} + \alpha_{0}.
 \end{eqnarray}
 The heat flux solid is then:
 \vskip-.6cm
 \begin{eqnarray}
-q_{wall}^0 = h(T_{wall}^0 - T_{fluid})\\
-= h(T_{wall}-T_{fluid})+h\cdot \alpha_{0}\nonumber \\
-= q_{wall} +h\alpha_{0} .\nonumber
+q_{wall}^0 &=& h(T_{wall}^0 - T_{fluid})\\
+&=& h(T_{wall}-T_{fluid})+h\cdot \alpha_{0}\nonumber \\
+&=& q_{wall} +h\alpha_{0} .\nonumber
 \end{eqnarray}
 Using the new heat flux imposed to the solid results in a new wall temperature:
 \vskip-.6cm
 \begin{eqnarray}
-T_{wall}^{1}=T_s-\frac{L}{\lambda_{s}} \cdot q_{wall}^0\\
-= T_s - \frac{L}{\lambda_{s}} \cdot q_{wall} - \alpha^{0} \frac{hL}{\lambda_{s}}\nonumber \\
-= T_{wall} - \alpha_{0} \cdot Bi.
+T_{wall}^{1}&=&T_s-\frac{L}{\lambda_{s}} \cdot q_{wall}^0\\
+&=& T_s - \frac{L}{\lambda_{s}} \cdot q_{wall} - \alpha^{0} \frac{hL}{\lambda_{s}}\nonumber \\
+&=& T_{wall} - \alpha_{0} \cdot Bi.
 \end{eqnarray}
 At the i-th iteration, the temperature is given by:
 \vskip-.6cm
 \begin{eqnarray}
-T_{wall}^{i}=T_{wall}+\alpha_{0} \cdot (-Bi)^{i}.
+T_{wall}^{i}&=&T_{wall}+\alpha_{0} \cdot (-Bi)^{i}.
 \end{eqnarray}
 The heat flux results in:
 \vskip-.6cm
 \begin{eqnarray}
-q_{wall}^{i}=q_{wall}+\alpha_{0} \cdot (-Bi)^{i} \cdot h.
+q_{wall}^{i}&=&q_{wall}+\alpha_{0} \cdot (-Bi)^{i} \cdot h.
 \end{eqnarray}
 As we can see, convergence is only achieved, if $ |Bi| < 1 $.
 
@@ -64,31 +64,31 @@ As we can see, convergence is only achieved, if $ |Bi| < 1 $.
 In the TFFB method, a wall temperature $ T_{wall}^{0} $ is imposed to the solid domain that varys by a value $ \alpha_0 $ from the correct wall temperature:
 \vskip-.6cm
 \begin{eqnarray}
-T_{wall}^0 = T_{wall} + \alpha_{0}.
+T_{wall}^0 &=& T_{wall} + \alpha_{0}.
 \end{eqnarray}
 The heat flux is then:
 \vskip-.6cm
 \begin{eqnarray}
-q_{wall}^0 = \frac{\lambda_{s}}{L}(T_{s} - T_{wall}^0)\\
-= \frac{\lambda_{s}}{L}(T_{s} - T_{wall})+\frac{\lambda_{s}}{L} \cdot \alpha_{0}\nonumber \\
-= q_{wall} +\frac{\lambda_{s}}{L}\alpha_{0} .\nonumber
+q_{wall}^0 &=& \frac{\lambda_{s}}{L}(T_{s} - T_{wall}^0)\\
+&=& \frac{\lambda_{s}}{L}(T_{s} - T_{wall})+\frac{\lambda_{s}}{L} \cdot \alpha_{0}\nonumber \\
+&=& q_{wall} +\frac{\lambda_{s}}{L}\alpha_{0} .\nonumber
 \end{eqnarray}
 Using the new heat flux imposed to the fluid results in a new wall temperature:
 \vskip-.6cm
 \begin{eqnarray}
-T_{wall}^{1}=T_{fluid}+\frac{q_{wall}^{0}}{h}\\
-= T_{fluid}+\frac{q_{wall}}{h} - \alpha^{0} \frac{\lambda_{s}}{hL}\nonumber \\
-= T_{wall} - \frac{\alpha_{0}}{Bi}.
+T_{wall}^{1}&=&T_{fluid}+\frac{q_{wall}^{0}}{h}\\
+&=& T_{fluid}+\frac{q_{wall}}{h} - \alpha^{0} \frac{\lambda_{s}}{hL}\nonumber \\
+&=& T_{wall} - \frac{\alpha_{0}}{Bi}.
 \end{eqnarray}
 At the i-th iteration, the temperature is given by:
 \vskip-.6cm
 \begin{eqnarray}
-T_{wall}^{i}=T_{wall}+\alpha_{0} \cdot \left(-\frac{1}{Bi}\right)^{i}.
+T_{wall}^{i}&=&T_{wall}+\alpha_{0} \cdot \left(-\frac{1}{Bi}\right)^{i}.
 \end{eqnarray}
 The heat flux results in:
 \vskip-.6cm
 \begin{eqnarray}
-q_{wall}^{i}=q_{wall}+\alpha_{0} \cdot \left(-\frac{1}{Bi}\right)^{i} \cdot \frac{\lambda_{s}}{L}.
+q_{wall}^{i}&=&q_{wall}+\alpha_{0} \cdot \left(-\frac{1}{Bi}\right)^{i} \cdot \frac{\lambda_{s}}{L}.
 \end{eqnarray}
 As we can see, convergence is only achieved, if $ |Bi| > 1 $.
 

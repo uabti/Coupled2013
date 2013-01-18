@@ -4,7 +4,7 @@ The flow equations are solved by the second order accurate Pressure Stabilized P
 The convective terms are linearized in time as described in [?].
 The solid conduction is solved with a steady state Finite Element Method.
 Many problems need to compute fluid and solid part simultaneously taking the influence of one domain on the other into account, which we call a conjugate problem. There are two main approaches to solve a conjugate problem. A monolithic approach with one solver for both domains and a coupled approach with different solvers for each domains.  
-Besides the monolithic approach there are different partitioned approaches as we detailed in \cite{Verstraete2008} and summarize in the next sections.
+Besides the monolithic approach there are different partioned approaches as we detailed in \cite{Verstraete2008} and summarize in the next sections.
 
 \subsection{THE FLUX FORWARD TEMPERATURE BACK METHOD}
 
@@ -19,9 +19,10 @@ Besides the monolithic approach there are different partitioned approaches as we
 \end{tikzpicture}
 \caption{FFTB coupling.}
 \end{wrapfigure}
-The flux forward temperature back method (often referred to as the FFTB method, named from the perspective of the fluid domain) imposes a wall temperature distribution to the fluid solver. After the fluid calculation the resulting heat flux distribution is imposed to the solid conduction solver, which returns an updated temperature in turn imposed to the fluid domain. The exchange of boundary conditions is repeated until continuous temperatures and heat fluxes between both domains.
+The flux forward temperature back method (FFTB, named from the perspective of the fluid domain) imposes a wall temperature distribution to the fluid solver. After the fluid calculation the resulting heat flux distribution is imposed to the solid conduction solver, which returns an updated temperature in turn imposed to the fluid domain. The exchange of boundary conditions is repeated until continuous temperatures and heat fluxes between both domains.
+
 \subsection{THE TEMPERATURE FORWARD FLUX BACK METHOD}
-\begin{wrapfigure}{r}{0.25\textwidth}
+
 \begin{tikzpicture}[node distance=3cm,auto]
   \node (fluid) {$fluid$};
   \node [right of=fluid] (solid) {$solid$};
@@ -30,11 +31,9 @@ The flux forward temperature back method (often referred to as the FFTB method, 
   \draw (-0.45,-0.2) -- ++(-0,0.4) -- ++(0.9,0) -- ++(0,-0.4) -- ++(-0.9,0);
   \draw (2.55,-0.2) -- ++(-0,0.4) -- ++(0.9,0) -- ++(0,-0.4) -- ++(-0.9,0);
 \end{tikzpicture}
-\caption{TFFB coupling.}
-\end{wrapfigure}
-The temperature forward flux back method (often referred to as the TFFB method, named from the perspective of the fluid domain) imposes a heat flux distribution as boundary condition to the fluid solver. The resulting temperature is imposed to the solid solver, which returns a new heat flux distribution to the fluid domain.\\
+
 \subsection{THE HEAT TRANSFER COEFFICIENT FORWARD TEMPERATURE BACK METHOD}
-\begin{wrapfigure}{r}{0.25\textwidth}
+
 \begin{tikzpicture}[node distance=3cm,auto]
   \node (fluid) {$fluid$};
   \node [right of=fluid] (solid) {$solid$};
@@ -43,16 +42,9 @@ The temperature forward flux back method (often referred to as the TFFB method, 
   \draw (-0.45,-0.2) -- ++(-0,0.4) -- ++(0.9,0) -- ++(0,-0.4) -- ++(-0.9,0);
   \draw (2.55,-0.2) -- ++(-0,0.4) -- ++(0.9,0) -- ++(0,-0.4) -- ++(-0.9,0);
 \end{tikzpicture}
-\caption{hFTB coupling.}
-\end{wrapfigure}
-The heat transfer coefficient forward flux back method (referred to as the hFTB method, named from the perspective of the fluid domain) starts with an initial temperature distribution as boundary condition for the fluid computation. It uses Newton's law of convective heat transfer to return a Robin (mixed type) boundary condition to the solid domain:
-\vskip-.6cm
-\begin{eqnarray}
-q_{wall}^{i}&=&h\cdot (T_{wall}-T_{fluid}).
-\end{eqnarray}
-Again, boundary conditions are exchanged until convergence.
+
 \subsection{THE HEAT TRANSFER COEFFICIENT FORWARD FLUX BACK METHOD}
-\begin{wrapfigure}{r}{0.25\textwidth}
+
 \begin{tikzpicture}[node distance=3cm,auto]
   \node (fluid) {$fluid$};
   \node [right of=fluid] (solid) {$solid$};
@@ -61,6 +53,3 @@ Again, boundary conditions are exchanged until convergence.
   \draw (-0.45,-0.2) -- ++(-0,0.4) -- ++(0.9,0) -- ++(0,-0.4) -- ++(-0.9,0);
   \draw (2.55,-0.2) -- ++(-0,0.4) -- ++(0.9,0) -- ++(0,-0.4) -- ++(-0.9,0);
 \end{tikzpicture}
-\caption{hFFB coupling.}
-\end{wrapfigure}
-Based on the stability analysis of chapter \ref{sec:STABILITY ANALYSIS} we propose a fourth method (referred to as the hFFB method, named from the perspective of the fluid domain), which imposes a heat flux distribution to the fluid domain returning mixed type boundary conditions to the solid solver.

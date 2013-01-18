@@ -16,6 +16,8 @@
 \usepackage{sidecap}
 \usepackage{subfigure}
 
+\usepackage{wrapfig}
+\usepackage{amsmath}
 
 \title{STABILITY OF COUPLING METHODS FOR CONJUGATE HEAT TRANSFER}
 
@@ -38,7 +40,12 @@ e-mail: bart.janssens@rma.ac.be - web page: www.rma.ac.be}
 
 \abstract{
 We suggest a novel approach for coupled computations of conjugate heat transfer, considering the exchange of the boundary conditions between fluid and solid solver.
-Within the multi-physics environment COOLFluiD 3, developed at the von K\'{a}rm\'{a}n Institute for Fluid Dynamics, we included four different coupling strategies. In all methods, boundary conditions are exchanged until equal temperatures and heat fluxes at the interface from the solid to the fluid domain. The first method sets a temperature distribution to the fluid solver that predicts a heat flux distribution imposed to the solid solver \cite{Verdicchio}. The second method sets a heat flux distribution to the fluid solver computing a temperature field for the solid \cite{Heidemann}. A third method imposes a temperature field to the fluid returning a Robin boundary condition to the solid using the wall heat transfer equation \cite{Montenay}. Based on a stability analysis for the existing coupling procedures \cite{Verstraete2008}, we postulated a new method, imposing a heat flux distribution to the fluid solver that returns a Robin boundary condition to the solid solver \cite{Verstraete2007}. The stability of all methods only depend on the dimensionless Biot number, the ratio of conductive to convective thermal resistance.
+Within the multi-physics environment COOLFluiD 3, developed at the von K\'{a}rm\'{a}n Institute for Fluid Dynamics, we included four different coupling strategies. In all methods, boundary conditions are exchanged until equal temperatures and heat fluxes at the interface from the solid to the fluid domain. The first method sets a temperature distribution to the fluid solver that predicts a heat flux distribution imposed to the solid solver. %\cite{Verdicchio}. 
+The second method sets a heat flux distribution to the fluid solver computing a temperature field for the solid. %\cite{Heidemann}. 
+A third method imposes a temperature field to the fluid returning a Robin boundary condition to the solid using the wall heat transfer equation. % \cite{Montenay}. 
+Based on a stability analysis for the existing coupling procedures, %\cite{Verstraete2008}, 
+we postulate a new method, imposing a heat flux distribution to the fluid solver that returns a Robin boundary condition to the solid solver. % \cite{Verstraete2007}. 
+The stability of all methods only depend on the dimensionless Biot number, the ratio of conductive to convective thermal resistance.
 For flat plate computations, the result of each method is in good agreement with an analytical solution. We compare the novel coupling strategy with the established methods. Considering the stability, the new approach is advantageous, especially for high Biot numbers. Further, it converges faster concluding that it can improve efficiency and accuracy of conjugate heat transfer computations. 
 }
 
@@ -50,6 +57,8 @@ For flat plate computations, the result of each method is in good agreement with
 \input{numericalmethod}
 \input{stability}
 
+\input{flatplate}
+
 \input{resultsanddiscussion}
 
 \input{conclusions}
@@ -59,16 +68,16 @@ For flat plate computations, the result of each method is in good agreement with
 \begin{thebibliography}{99}
 
 \bibitem{Han} J.-C. Han, S. Dutta and S. Ekkad, \textit{Gas turbine heat transfer and cooling technology}. Taylor and Francis, 2001.
-\bibitem{Verdicchio} J.A. Verdicchio, J.W. Chew and N.J. Hills, “Coupled Fluid/Solid Heat Transfer Computation for Turbine Discs”, ASME Paper No. 2001-GT-0205.
-\bibitem{Heidemann} J.D. Heidemann, A.J. Kassab, E.A. Divo, F. Rodriguez and E. Steinthorsson, “Conjugate Heat Transfer Effects on a Realistic Film-Cooled Turbine Vane”. ASME TURBO EXPO, No.GT2033-38553.
-\bibitem{Montenay} A. Montenay, L. Paté and J. Duboué, “Conjugate Heat Transfer Analysis of an Engine Internal Cavity” ASME Paper No. 2000-GT-282.
+%\bibitem{Verdicchio} J.A. Verdicchio, J.W. Chew and N.J. Hills, “Coupled Fluid/Solid Heat Transfer Computation for Turbine Discs”, ASME %Paper No. 2001-GT-0205.
+%\bibitem{Heidemann} J.D. Heidemann, A.J. Kassab, E.A. Divo, F. Rodriguez and E. Steinthorsson, “Conjugate Heat Transfer Effects on a %Realistic Film-Cooled Turbine Vane”. ASME TURBO EXPO, No.GT2033-38553.
+%\bibitem{Montenay} A. Montenay, L. Paté and J. Duboué, “Conjugate Heat Transfer Analysis of an Engine Internal Cavity” ASME Paper No. %2000-GT-282.
 \bibitem{Verstraete2008} T. Verstraete, “Multidisciplinary Turbomachinery Component Optimization Considering Performance, Stress, and Internal Heat Transfer”, PhD-Thesis, Universiteit Gent, 2008.
 \bibitem{Verstraete2007} T. Verstraete, Z. Alsalihi and R. A. Van den Braembussche, “Numerical Study of the Heat Transfer in Micro Gas Turbines”, J. of Turbomachinery, Vol. 129, pp. 835-841, 2007.
 
-\bibitem{Zienkiewicz}  Zienkiewicz, O.C. and  Taylor, R.L. \textit{The finite element method}. McGraw Hill,
-Vol. I., (1989), Vol. II., (1991).
-\bibitem{Idelsohn} Idelsohn, S.R. and O\~{n}ate, E. Finite element and finite volumes. Two good friends.
-\textit{Int. J. Num. Meth. Engng.} (1994) \textbf{37}:3323--3341.
+%\bibitem{Zienkiewicz}  Zienkiewicz, O.C. and  Taylor, R.L. \textit{The finite element method}. McGraw Hill,
+%Vol. I., (1989), Vol. II., (1991).
+%\bibitem{Idelsohn} Idelsohn, S.R. and O\~{n}ate, E. Finite element and finite volumes. Two good friends.
+%\textit{Int. J. Num. Meth. Engng.} (1994) \textbf{37}:3323--3341.
 
 \end{thebibliography}
 
